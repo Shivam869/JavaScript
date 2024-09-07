@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8" />
+
+<title>Greetings Master</title>
+
+</head>
+
+<body>
+    <p id="error message"></p>
+    <script>
+      try{
+         alert("Welcome") 
+      }
+      catch(error) {
+        document.getElementById("error message") .innerHTML=error.message
+      }
+    </script>
+
+</body>
